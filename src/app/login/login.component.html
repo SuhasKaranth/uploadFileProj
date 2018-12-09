@@ -1,3 +1,10 @@
+<div *ngIf="showInvlaidCredAlert" class="card">
+  <div class="card-body">
+    <ngb-alert class = "alert-danger" [type]="danger" (close)="closeAlert()">{{ alertMessage }}</ngb-alert>
+  </div>
+</div>
+
+
 <form class="form-signin" name="loginForm" #form="ngForm" (ngSubmit)="onSubmit()">
   <img class="mb-4" src="../assets/Mashreq-logo.jpg" alt="" width="250" height="250">
   <h1 class="h3 mb-3 font-weight-normal">Please log in</h1>

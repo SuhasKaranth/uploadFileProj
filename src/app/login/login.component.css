@@ -42,3 +42,8 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+.alert-danger {
+  color: #7c2b2a;
+  background-color: #fcdddc;
+  border-color: #fbcfce;
+}
